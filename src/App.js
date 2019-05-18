@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import qiqi from './qiqi.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={qiqi} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          祝我最爱的琦琦坨5.20快乐！
         </p>
         <a
           className="App-link"
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Love you~
         </a>
       </header>
     </div>
