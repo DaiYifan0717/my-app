@@ -3,6 +3,9 @@ import './App.css';
 import qiqi from './qiqi.png'
 import iconurl from './icon/爱心.png'
 import Main from './Main'
+
+import TypeMachine from './TypeMachine'
+
 class App extends Component {
     state={
         class:'bounceInLeft',
@@ -12,6 +15,14 @@ class App extends Component {
     };
 
   render() {
+
+        /*const texts = [
+            [{ string: '第一行', color: 'red' }],
+            [{ string: '第二行' }, { string: '同行换色', color: 'yellow' }]
+          ]
+        return (
+          <TypeMachine texts={texts} speed={500} defaultColor='#BBB' />
+        )*/
 
         const main = ()=>{
             if (this.state.showText)
@@ -30,7 +41,7 @@ class App extends Component {
                       className="App-link"
                       onClick = {() => {this.setState({class:'bounceInLeft', showHome:false, showEnvelope:true, showText:false})}}
                     >
-                      这是送给琦琦坨的5.20礼物！
+                      点击这里接收你的5.20礼物！
                     </a>
                   </div>
                 </header>
@@ -48,7 +59,7 @@ class App extends Component {
                 </header>
               } 
 
-              <header>
+              <header className="background">
                 {main()}
               </header>
 
