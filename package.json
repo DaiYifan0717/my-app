@@ -4,9 +4,13 @@
   "private": true,
   "homepage": "https://DaiYifan0717.github.io/my-app",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "animate.css": "^3.6.1",
+    "animateplus": "^2.0.1",
+    "antd": "^3.18.1",
+    "jquery": "^3.4.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -18,18 +22,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
